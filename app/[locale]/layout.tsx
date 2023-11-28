@@ -40,7 +40,7 @@ export default async function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        <meta property="og:title" content="Massiv boats configurator" />
+        <meta property="og:title" content="Massiv boats admin" />
         <meta property="og:type" content="marine" />
         <meta property="og:image" content="" />
       </head>

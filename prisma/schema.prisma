@@ -18,4 +18,67 @@ model User {
   emailVerified  Boolean?
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
+
+  boats  Boat[]
+  // producers Producer[]
+  colors Color[]
+}
+
+model Boat {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId      String  @db.ObjectId
+  producer    String
+  name        String  @unique
+  width       Int
+  height      Int
+  length      Int
+  mass        Int
+  price       Int
+  description String
+  images      Image[]
+  colors      Color[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // producer Producer @relation(fields: [producerId], references: [id], onDelete: Cascade)
+}
+
+// model Producer {
+//   id          String @id @default(auto()) @map("_id") @db.ObjectId
+//   userId      String @db.ObjectId
+//   name        String
+//   boats       Boat[]
+//   imageUrl    String
+//   description String
+
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+
+//   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+// }
+
+model Color {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  userId String @db.ObjectId
+  boatId String? @db.ObjectId
+  name   String
+  value  String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  Boat   Boat?   @relation(fields: [boatId], references: [id])
+}
+
+model Image {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  boatId    String   @db.ObjectId
+  url       String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  boat Boat @relation(fields: [boatId], references: [id], onDelete: Cascade)
 }
