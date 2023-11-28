@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const withNextIntl = require('next-intl/plugin')('./app/i18n.tsx');
 
-module.exports = nextConfig
+module.exports = withNextIntl({
+    images: { domains: ["res.cloudinary.com"] }
+});

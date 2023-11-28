@@ -1,0 +1,133 @@
+{
+  "common": {
+    "errorToast": "Coś poszlo nie tak.",
+    "uploadImage": "Załaduj zdjęcie"
+  },
+  "footer": {
+    "privacyPolicy": "Polityka prywatności",
+    "cookiesPolicy": "Informacja cookie",
+    "legal": "Dane osobowe"
+  },
+  "navigation": {
+    "boats": "Łodzie",
+    "producers": "Producenci",
+    "colors": "Kolory",
+    "logout": "Wyloguj"
+  },
+  "auth": {
+    "login": {
+      "email": {
+        "label": "E-mail",
+        "validationError": "auth.register.email.validationError",
+        "emptyError": "E-mail jest wymagany."
+      },
+      "password": {
+        "label": "Password",
+        "validationError": "Hasło jest wymagane.",
+        "emptyError": "Hasło jest wymagane."
+      },
+      "button": "Zaloguj się",
+      "text": {
+        "label": "Nie masz konta?",
+        "button": "Zarejestruj się!"
+      },
+      "toast": {
+        "success": "Zalogowano pomyślnie.",
+        "failure": "Nie udało się zalogować."
+      }
+    },
+    "register": {
+      "email": {
+        "label": "E-mail",
+        "validationError": "auth.register.email.validationError",
+        "emptyError": "E-mail jest wymagany."
+      },
+      "password": {
+        "label": "Password",
+        "validationError": "Hasło powinno składać się z conajmniej 8 znaków.",
+        "emptyError": "Hasło jest wymagane."
+      },
+      "button": "Zarejestruj się",
+      "text": {
+        "label": "Masz już konto?",
+        "button": "Zaloguj się!"
+      },
+      "toast": {
+        "success": "Konto zostało utworzone, poproś administratora o zatwierdzenie.",
+        "failure": "Nie udało się utworzyć konta."
+      }
+    }
+  },
+  "boats": {
+    "header": "Łodzie ",
+    "subHeader": "Zarządzaj łodziami dostępnymi w konfiguratorze.",
+    "actionButton": "Dodaj"
+  },
+  "boatForm": {
+    "new": {
+      "title": "Nowy model łodzi.",
+      "description": "Dodaj nowy model łodzi",
+      "toastMessage": "Model łodzi utworzony.",
+      "actionLabel": "Utwórz"
+    },
+    "edit": {
+      "title": "Edytuj model.",
+      "description": "Edytuj model łodzi.",
+      "toastMessage": "Model łodzi zaktualizowany.",
+      "actionLabel": "Zapisz zmiany"
+    },
+    "delete": {
+      "toastMessage": "Łódź usunięta pomyślnie."
+    }
+  },
+  "alertModal": {
+    "title": "Czy na pewno chcesz wykonać tę akcję?",
+    "description": "Tej akcji nie da się odwrócić.",
+    "submit": "Zatwierdź",
+    "cancel": "Anuluj"
+  },
+  "producers": {
+    "header": "Producenci ",
+    "subHeader": "Zarządzaj producentami dostępnymi w konfiguratorze.",
+    "actionButton": "Dodaj"
+  },
+  "producerForm": {
+    "new": {
+      "title": "Nowy producent.",
+      "description": "Dodaj nowego producenta",
+      "toastMessage": "Producent utworzony.",
+      "actionLabel": "Utwórz"
+    },
+    "edit": {
+      "title": "Edytuj procudenta.",
+      "description": "Edytuj istniejącego producenta.",
+      "toastMessage": "Producent zaktualizowany.",
+      "actionLabel": "Zapisz zmiany"
+    },
+    "delete": {
+      "toastMessage": "Producent usunięty pomyślnie."
+    }
+  },
+  "colors": {
+    "header": "Kolory",
+    "subHeader": "Zarządzaj kolorami dostępnymi w konfiguratorze.",
+    "actionButton": "Dodaj"
+  },
+  "colorForm": {
+    "new": {
+      "title": "Nowy kolor.",
+      "description": "Dodaj nowy kolor",
+      "toastMessage": "Kolor utworzony.",
+      "actionLabel": "Utwórz"
+    },
+    "edit": {
+      "title": "Edytuj kolor.",
+      "description": "Edytuj istniejący kolor.",
+      "toastMessage": "Kolor zaktualizowany.",
+      "actionLabel": "Zapisz zmiany"
+    },
+    "delete": {
+      "toastMessage": "Kolor usunięty pomyślnie."
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "common": {
+    "errorToast": "Something went wrong.",
+    "uploadImage": "Upload image"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy policy",
+    "cookiesPolicy": "Cookie information",
+    "legal": "Personal data"
+  },
+  "navigation": {
+    "boats": "Boats",
+    "producers": "Producers",
+    "colors": "Colors",
+    "logout": "Sign out"
+  },
+  "auth": {
+    "login": {
+      "email": {
+        "label": "E-mail",
+        "validationError": "auth.register.email.validationError",
+        "emptyError": "E-mail is required."
+      },
+      "password": {
+        "label": "Password",
+        "validationError": "Password is required.",
+        "emptyError": "Password is required."
+      },
+      "button": "Sign in",
+      "text": {
+        "label": "Don't have an account?",
+        "button": "Sign up!"
+      },
+      "toast": {
+        "success": "Logged in.",
+        "failure": "Something went wrong."
+      }
+    },
+    "register": {
+      "email": {
+        "label": "E-mail",
+        "validationError": "auth.register.email.validationError",
+        "emptyError": "E-mail is required."
+      },
+      "password": {
+        "label": "Password",
+        "validationError": "Password should be at least 8 characters long.",
+        "emptyError": "Password is required."
+      },
+      "button": "Sign up",
+      "text": {
+        "label": "Have an account?",
+        "button": "Sign in!"
+      },
+      "toast": {
+        "success": "Account created, ask admin about confirmation.",
+        "failure": "Something went wrong."
+      }
+    }
+  },
+  "boats": {
+    "header": "Boats",
+    "subHeader": "Manage the boats available in the configurator.",
+    "actionButton": "Add"
+  },
+  "boatForm": {
+    "new": {
+      "title": "Create boat model.",
+      "description": "Add a new boat.",
+      "toastMessage": "Boat created.",
+      "actionLabel": "Create"
+    },
+    "edit": {
+      "title": "Edit boat model.",
+      "description": "Edit a boat.",
+      "toastMessage": "Boat updated.",
+      "actionLabel": "Save changes"
+    },
+    "delete": {
+      "toastMessage": "Boat deleted."
+    }
+  },
+  "alertModal": {
+    "title": "Are you sure?",
+    "description": "This action cannot be undone.",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "producents": {
+    "header": "Producers",
+    "subHeader": "Manage the producers available in the configurator.",
+    "actionButton": "Add"
+  },
+  "producentForm": {
+    "new": {
+      "title": "Create producer.",
+      "description": "Add a new producer.",
+      "toastMessage": "Producer created.",
+      "actionLabel": "Create"
+    },
+    "edit": {
+      "title": "Edit producer.",
+      "description": "Edit a producer.",
+      "toastMessage": "Producer updated.",
+      "actionLabel": "Save changes"
+    },
+    "delete": {
+      "toastMessage": "Producer deleted."
+    }
+  },
+  "colors": {
+    "header": "Colors",
+    "subHeader": "Manage the colors available in the configurator.",
+    "actionButton": "Add"
+  },
+  "colorForm": {
+    "new": {
+      "title": "Create color.",
+      "description": "Add a new color.",
+      "toastMessage": "Color created.",
+      "actionLabel": "Create"
+    },
+    "edit": {
+      "title": "Edit color.",
+      "description": "Edit a color.",
+      "toastMessage": "Color updated.",
+      "actionLabel": "Save changes"
+    },
+    "delete": {
+      "toastMessage": "Color deleted."
+    }
+  }
+}
